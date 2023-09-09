@@ -1,0 +1,160 @@
+@media all and (min-width: 768px) {
+  /* HEADER */
+  .burger-btn {
+    display: none;
+  }
+  header .header-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  nav {
+    display: block;
+  }
+  .nav-list {
+    display: flex;
+    margin-top: 20px;
+  }
+  .nav-link {
+    color: white;
+    margin-left: 20px;
+  }
+  header a {
+    color: white;
+    font-family: latin-700;
+    font-size: 12px;
+  }
+  header h1 {
+    margin-top: 20px;
+  }
+  /* MAIN */
+  main .main-buttons-1 {
+    display: none;
+  }
+  main .main-buttons-2 {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  main img {
+    width: 250px;
+  }
+  main .main-rest {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main .container {
+    border: 1px solid #313148;
+    width: 250px;
+    padding: 14px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  main button {
+    color: white;
+  }
+  main .container span {
+    color: #7f7f8f;
+    margin-right: 13px;
+  }
+  main .internal {
+    margin: 20px 20px 20px 0px;
+  }
+  main #planet-name {
+    text-align: left;
+    margin-left: 20px;
+  }
+  main article p.description {
+    text-align: left;
+  }
+  main article .desc-source {
+    justify-content: flex-start;
+    margin-left: 20px;
+  }
+
+  /* SECTION - PLANET INFORMATION */
+  section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 25px;
+  }
+  section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 1px solid #7f7f8f;
+    width: 200px;
+    padding: 20px 17px;
+    margin: 15px;
+  }
+
+  section h2 {
+    color: white;
+    font-family: antonio;
+    font-size: 30px;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  /* HEADER */
+  header {
+    padding: 30px;
+  }
+  header .header-nav {
+    flex-direction: row;
+    margin-right: 20px;
+  }
+
+  /* MAIN */
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  main .main-rest {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 250px 0px 0px;
+  }
+
+  main p.description {
+    max-width: 250px;
+  }
+
+  main article p.description {
+    color: #7f7f8f;
+    font-size: 15px;
+  }
+
+  main article h1 {
+    font-size: 70px;
+  }
+
+  main .desc-source {
+    margin-bottom: 15px;
+  }
+
+  main div.main-img #planet-img {
+    width: 300px;
+    margin-top: 150px;
+  }
+
+  /* SECTION - PLANET INFORMATION */
+
+  section div {
+    width: 250px;
+    padding: 20px 17px;
+    margin: 60px 15px;
+  }
+
+  section h2 {
+    color: white;
+    font-family: antonio;
+    font-size: 40px;
+  }
+}

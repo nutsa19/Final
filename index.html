@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planets</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-nav">
+        <h1>THE PLANETS</h1>
+        <div>
+          <nav id="main-nav">
+            <ul class="nav-list">
+              <li><a class="nav-link" href="#">MERCURY</a></li>
+              <li><a class="nav-link" href="#">VENUS</a></li>
+              <li><a class="nav-link" href="#">EARTH</a></li>
+              <li><a class="nav-link" href="#">MARS</a></li>
+              <li><a class="nav-link" href="#">JUPITER</a></li>
+              <li><a class="nav-link" href="#">SATURN</a></li>
+              <li><a class="nav-link" href="#">URANUS</a></li>
+              <li><a class="nav-link neptune" href="#">NEPTUNE</a></li>
+            </ul>
+          </nav>
+          <button class="burger-btn">
+            <img src="assets/icon-burger.svg" alt="burger-icon" />
+          </button>
+        </div>
+      </div>
+    </header>
+    <hr />
+    <main>
+      <div class="main-buttons-1">
+        <button class="overview">OVERVIEW</button>
+        <button class="internal middle">STRUCTURE</button>
+        <button class="geology">SURFACE</button>
+      </div>
+      <hr />
+      <div class="main-img">
+        <img id="planet-img" src="" alt="planet photo" />
+      </div>
+      <div class="main-rest">
+        <article>
+          <div class="article-info">
+            <h1 id="planet-name"></h1>
+            <p class="description"></p>
+            <div class="desc-source">
+              <p>Source :</p>
+              <a href="#">Wikipedia</a>
+            </div>
+          </div>
+        </article>
+        <div class="main-buttons-2">
+          <button class="overview2 container">
+            <span class="num">01</span> OVERVIEW
+          </button>
+          <button class="internal2 container">
+            <span class="num">02</span> INTERNAL STRUCTURE
+          </button>
+          <button class="geology2 container">
+            <span class="num">03</span> SURFACE GEOLOGY
+          </button>
+        </div>
+      </div>
+    </main>
+    <section class="planet-info">
+      <div class="rotation">
+        <h3>ROTATION TIME</h3>
+        <h2 id="rotation"></h2>
+      </div>
+      <div class="revolution">
+        <h3>REVOLUTION TIME</h3>
+        <h2 id="revolution"></h2>
+      </div>
+      <div class="radius">
+        <h3>RADIUS</h3>
+        <h2 id="radius"></h2>
+      </div>
+      <div class="temp">
+        <h3>AVERAGE TEMP.</h3>
+        <h2 id="temp"></h2>
+      </div>
+    </section>
+  </body>
+</html>
